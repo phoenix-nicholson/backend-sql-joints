@@ -7,8 +7,7 @@ film
 LEFT JOIN 
 inventory
 ON 
-film.film_id = inventory.film
-_id
+film.film_id = inventory.film_id
 LEFT JOIN
 rental
 ON
